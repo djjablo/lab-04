@@ -5,7 +5,20 @@
 
 body {
   background: #fcc;
-} 
+}
+
+nav {
+  flex-direction: column;
+  display: none;
+}
+
+.menu{
+  background-color: #202060;
+  color: #f9ecf9;
+  line-height: 2em;
+  
+}
+
 
 
 
@@ -13,11 +26,19 @@ body {
 
 @media screen and (min-width: 500px) {
 
+.menu{
+  display: none;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+}
   /* applies to screens wider than 499px */
-  
+
   body {
     background: #cfc;
-  } 
+  }
 }
 
 
@@ -30,5 +51,5 @@ body {
 
   body {
     background: #ccf;
-  } 
+  }
 }
