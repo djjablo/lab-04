@@ -16,9 +16,12 @@ nav {
   background-color: #202060;
   color: #f9ecf9;
   line-height: 2em;
-  
+
 }
 
+/*.menu:hover {
+  display: flex;
+}*/
 
 
 
